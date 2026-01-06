@@ -12,14 +12,16 @@
 
 2. Backend
 	- Next.js Route Handlers
-	- Prisma
+	- Supabase Client (Server + Client)
+	- PostgreSQL Functions / Policies
 	- Zod
 
 3. Database
-	- PostgreSQL (via Neon DB)
+	- Supabase PostgreSQL
+	- Row Level Security Policies
 
 4. Auth
-	- Auth.js (NextAuth)
+	- Supabase Auth
 
 5. Deployment
 	- Vercel
