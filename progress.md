@@ -12,7 +12,7 @@ In other words, the goal of this project is not mastery, but to develop foundati
         - Stack Overflow Discussions  
         - Long-form technical tutorials  
 
-    Below are the YouTube videos/playlists that I referred to:
+    Below are the YouTube videos/playlists that I referred to:  
         - [Next.js Tutorial for Beginners (Playlist)](https://www.youtube.com/watch?v=b4ba60j_4o8&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY)  
         - [Next.js Projects: Build a Full-stack App with Next.js, Tailwind, Radix UI, and Prisma](https://www.youtube.com/watch?v=J9sfR6HN6BY&list=PLkjUCItb_T_Y46gOYTXNKkuXogonkABq1)  
         - [Next js Tutorial for Beginners | Nextjs 13 (App Router) with TypeScript](https://www.youtube.com/watch?v=ZVnjOPwW4ZA&list=PLkjUCItb_T_Y46gOYTXNKkuXogonkABq1&index=4)  
