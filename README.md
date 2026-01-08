@@ -1,6 +1,17 @@
 # 10-days, 1 Project
 
 ## Internship Application Tracker
+
+### Templates & Resources
+1. Templates
+	- [Find your templates ](https://vercel.com/templates?framework=next.js)
+
+2. Learn
+	- [Learn Next.js ](https://nextjs.org/learn)
+
+3. Next.js Documentation
+	- [Docs ](https://nextjs.org/docs)
+	
 ### Technology stack
 1. Frontend
 	- Next.js
