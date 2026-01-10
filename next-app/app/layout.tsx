@@ -25,6 +25,7 @@
 import "./globals.css";
 
 import { AuthProvider } from "@/components/context/AuthProvider";
+import { Toaster } from "@/components/ui/sonner";
 
 // Metadata API can be used when layout.tsx is a Server Component.
 // Metadata for the application with Metadata API
@@ -47,6 +48,7 @@ export default function RootLayout({
             inside a "Server Shell".
         */}
         <AuthProvider>{children}</AuthProvider>
+        <Toaster />
       </body>
     </html>
   );

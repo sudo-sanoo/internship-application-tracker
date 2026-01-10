@@ -2,6 +2,7 @@
 
 import useAuth from "@/hooks/useAuth";
 import { useRouter } from "next/navigation";
+import Auth from "@/components/auth/Auth";
 
 export default function Home() {
   // useAuth() here asks two questions:
@@ -23,12 +24,12 @@ export default function Home() {
   // 2. We are still checking with Supabase.
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex min-h-screen justify-center bg-zinc-50 font-sans dark:bg-black">
       {/* 
           If loading is true, show "Loading...".
           If loading is false, show "Login Form".
       */}
-      { loading ? <h1>Loading...</h1> : <h1>Login Form</h1> }
+      { loading ? <h1>Loading...</h1> : <Auth /> }
     </div>
   );
 }
