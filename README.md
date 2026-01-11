@@ -1,5 +1,3 @@
-# 10-days, 1 Project
-
 ## Internship Application Tracker
 
 ### Templates & Resources

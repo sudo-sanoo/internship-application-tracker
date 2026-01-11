@@ -42,4 +42,13 @@ In other words, the goal of this project is not mastery, but to develop foundati
     This design step was done to reduce implementation errors, improve clarity, and ensure the application architecture aligns with real-world development practices.  
 
 3. **Development/Building the Application**  
-    (in the process)  
+    1. Created a Next.js Application Boilerplate: `next-app`.
+    2. Bootstraps shadcn/ui environment and import pre-built components to shadcn environment.
+    3. Setup Supabase
+    4. Getting to know Providers and Hooks:
+        - Created a Supabase API client in `next-app` as `/api/client.ts`.
+        - Implemented Authentication Provider (service) `AuthProvider.jsx` 
+        - Implemented a custom hook `useAuth.ts` to use `AuthProvider.jsx` in `page.tsx` to check user login state and Supabase checking state.
+    5. Built a login/signup form with shadcn/ui components.
+    6. Built `Auth.jsx`, `Login.jsx`, and `Signup.jsx` to handle user input for login and signup forms. 
+    7. Integrating Supabase Auth (Security Takeaway: Email Confirmation)
