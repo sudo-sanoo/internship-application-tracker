@@ -2,6 +2,7 @@
 
 import useAuth from "@/hooks/useAuth";
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import Auth from "@/components/auth/Auth";
 
 export default function Home() {
@@ -14,10 +15,11 @@ export default function Home() {
   const router = useRouter();
 
   // If the check is finished and we found a logged-in user, push /dashboard to the URL and redirect there.
-  if (!loading && user) {
-    router.push("/dashboard");
-    return null;
-  } 
+  useEffect(() => {
+    if (!loading && user) {
+      router.push("/dashboard");
+    }
+  }, [user, loading]);
 
   // If the code skips the check above, it means:
   // 1. The user is not logged in.
